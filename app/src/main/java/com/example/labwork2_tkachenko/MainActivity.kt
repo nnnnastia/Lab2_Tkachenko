@@ -92,8 +92,8 @@ class MainActivity : AppCompatActivity() {
         // Створення наміру на надсилання e-mail з фото
         val emailIntent = Intent(Intent.ACTION_SEND).apply {
             type = "image/jpeg"  // Тип контенту — фото
-            putExtra(Intent.EXTRA_EMAIL, arrayOf("10328016@stud.op.edu.ua"))  // Адреса отримувача
-            putExtra(Intent.EXTRA_SUBJECT, "ANDROID [Прізвище Ім’я]")         // Тема листа
+            putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))  // Адреса отримувача
+            putExtra(Intent.EXTRA_SUBJECT, "ANDROID [Ткаченко Анастасія]")   // Тема листа
             putExtra(
                 Intent.EXTRA_TEXT,
                 "Надсилаю селфі та посилання на репозиторій проєкту:\nhttps://github.com/nnnnastia/Lab2_Tkachenko.git"
